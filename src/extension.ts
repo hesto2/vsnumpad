@@ -19,6 +19,14 @@ export function activate(context: vscode.ExtensionContext) {
 
         // Display a message box to the user
         vscode.window.showInformationMessage('Hello World!');
+        let editor = vscode.window.activeTextEditor;
+        if(editor){
+            const position = editor.selection.active;
+            editor.edit((builder)=>{
+                builder.insert(position, "0");
+            })
+            vscode.TextEdit.insert(position, "ASDF");
+        }
     });
 
     context.subscriptions.push(disposable);
