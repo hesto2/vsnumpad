@@ -18,53 +18,43 @@
         "keybindings": [
             {
                 "command": "vsnumpad.print0",
-                "key": "ctrl+shift+space",
-                "when": "editorTextFocus"
+                "key": "ctrl+shift+space"
             },
             {
                 "command": "vsnumpad.print1",
-                "key": "ctrl+shift+m",
-                "when": "editorTextFocus"
+                "key": "ctrl+shift+m"
             },
             {
                 "command": "vsnumpad.print2",
-                "key": "ctrl+shift+,",
-                "when": "editorTextFocus"
+                "key": "ctrl+shift+,"
             },
             {
                 "command": "vsnumpad.print3",
-                "key": "ctrl+shift+.",
-                "when": "editorTextFocus"
+                "key": "ctrl+shift+."
             },
             {
                 "command": "vsnumpad.print4",
-                "key": "ctrl+shift+j",
-                "when": "editorTextFocus"
+                "key": "ctrl+shift+j"
             },
             {
                 "command": "vsnumpad.print5",
-                "key": "ctrl+shift+k",
-                "when": "editorTextFocus"
+                "key": "ctrl+shift+k"
             },
             {
                 "command": "vsnumpad.print6",
-                "key": "ctrl+shift+l",
-                "when": "editorTextFocus"
+                "key": "ctrl+shift+l"
             },
             {
                 "command": "vsnumpad.print7",
-                "key": "ctrl+shift+u",
-                "when": "editorTextFocus"
+                "key": "ctrl+shift+u"
             },
             {
                 "command": "vsnumpad.print8",
-                "key": "ctrl+shift+i",
-                "when": "editorTextFocus"
+                "key": "ctrl+shift+i"
             },
             {
                 "command": "vsnumpad.print9",
-                "key": "ctrl+shift+o",
-                "when": "editorTextFocus"
+                "key": "ctrl+shift+o"
             }
         ]
     },
